@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <parameter name="acc_no" value="100900"></parameter>
+    <parameter name="name" value="Mohammad Eko"></parameter>
+    <parameter name="amount" value="1000.0"></parameter>
+    <parameter name="amt" value="1000.0"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="D:/bootcamp juara koding/sqa batch 6/Ujian-mingguan-2/src/test/java/com/juaracoding/tesng/ujiandua/TestAccount.java">
+        <classes>
+            <class name="com.juaracoding.rizkihidayatullah.ujianmingguandua.TestAccount">
+                <methods>
+                    <include name="testInsert"/>
+                    <include name="testDeposit"/>
+                    <include name="testWithdraw"/>
+                    <include name="testCheckBalance"/>
+                    <include name="testDisplay"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
